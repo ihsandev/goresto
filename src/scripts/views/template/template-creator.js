@@ -10,7 +10,7 @@ export const createHeroTemplate = (type = 'default', resto) => {
       </picture>
       <figure>
         <h1>${resto.name}</h1>
-        <h3>${resto.address}</h3>
+        <h2>${resto.address}</h2>
       </figure>
     </div>
     `;
