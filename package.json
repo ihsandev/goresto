@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js --display-modules",
     "test": "karma start",
     "lint": "eslint ./src",
     "e2e": "codeceptjs run --steps"
@@ -42,7 +42,7 @@
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.0.9",
+    "webpack-merge": "^5.8.0",
     "webpack-pwa-manifest": "^4.3.0",
     "whatwg-fetch": "^3.2.0"
   },
