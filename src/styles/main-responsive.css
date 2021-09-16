@@ -1,0 +1,33 @@
+@media only screen and (min-width: 768px) {
+  header {
+    padding: 0;
+  }
+  .resto {
+    padding: 3rem 0rem;
+  }
+  nav > ul {
+    display: flex;
+    align-items: center;
+  }
+  .btn-burger {
+    display: none;
+  }
+  
+  /* detail */
+  .detail .detail_reviews > div {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+  }
+
+  .detail .detail_title > h1 {
+    font-size: 48px;
+  }
+
+  .detail .list-menus {
+    display: flex;
+  }
+
+  .detail .detail_reviews > h2 {
+    font-size: 1.5rem;
+  }
+}
